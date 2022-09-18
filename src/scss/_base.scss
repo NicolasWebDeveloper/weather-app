@@ -1,0 +1,32 @@
+$gradient: linear-gradient(to right, #756fb8, #12b599);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: $gradient;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  width: 50vw;
+  height: 30vw;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 4px 4px rgba(60, 60, 60, 0.49);
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 15vw;
+  background-color: #292828;
+}

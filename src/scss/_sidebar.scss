@@ -1,0 +1,58 @@
+$gradient: linear-gradient(to right, #756fb8, #12b599);
+
+.searchbar {
+  width: 10rem;
+  height: 2rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border: 0;
+  color: black;
+}
+
+.search-button {
+  background-image: $gradient;
+  height: 2rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  font-weight: 500;
+  border: 0;
+}
+
+.search_form {
+  display: flex;
+  height: 4vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 7vw;
+  height: 7vw;
+  background-image: $gradient;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 4rem);
+
+  // background-image: url('../images/city.jpg');
+  // background-repeat: no-repeat;
+  // background-position-y: 27vh;
+  // background-size: 100%;
+}
+
+.temperature-container {
+  color: #fff;
+}
